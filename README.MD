@@ -1,5 +1,13 @@
 ## NPM Registry 
 
+### Prerequisite
+
+Setup an Indy instance locally 
+````
+port:       8080
+proxy port: 8081
+````
+
 ### CASE ONE:  How to use Indy as a npm registry
 ````
 yarn init
@@ -14,8 +22,7 @@ Check the config
 yarn config list
 ````
 
-Start local-indy 
-Create a remote repo 
+Create a remote repo in the [local-indy](http://localhost:8080/#/remote)  
 ````
 Package Type: npm
 Name:         npmjs
