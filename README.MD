@@ -1,6 +1,6 @@
-### NPM Registry 
+## NPM Registry 
 
-#### How to init a test node project to test npm registry
+### CASE ONE:  How to use Indy as a npm registry
 ````
 yarn init
 yarn config list
@@ -30,7 +30,7 @@ yarn add @types/react
 ````
 
 
-#### How to use indy as a proxy
+### CASE TWO: How to use indy as a proxy
 
 Update the config of local-indy to make it to support http proxy in httprox.conf:  
 ````
