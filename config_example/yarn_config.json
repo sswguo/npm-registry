@@ -1,0 +1,30 @@
+{ 'version-tag-prefix':
+   'v',
+  'version-git-tag':
+   true,
+  'version-commit-hooks':
+   true,
+  'version-git-sign':
+   false,
+  'version-git-message':
+   'v%s',
+  'init-version':
+   '1.0.0',
+  'init-license':
+   'MIT',
+  'save-prefix':
+   '^',
+  'bin-links':
+   true,
+  'ignore-scripts':
+   false,
+  'ignore-optional':
+   false,
+  registry:
+   'http://localhost:8080/api/folo/track/build-npm-registry-001/npm/remote/npmjs/',
+  'strict-ssl':
+   true,
+  'user-agent':
+   'yarn/1.12.3 npm/? node/v10.16.3 darwin x64',
+  lastUpdateCheck:
+   1569217953384 }
