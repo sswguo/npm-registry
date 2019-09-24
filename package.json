@@ -9,7 +9,6 @@
     "bible": "^2.0.1",
     "http-call": "^5.2.5",
     "http-proxy": "^1.18.0",
-    "json": "^9.0.6",
     "json-buffer": "^3.0.1",
     "rest": "^2.0.0",
     "webpack": "^4.40.2"

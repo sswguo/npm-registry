@@ -8,7 +8,7 @@ port:       8080
 proxy port: 8081
 ````
 
-### CASE ONE:  How to use Indy as a npm registry
+- [CASE ONE]:  How to use Indy as a npm registry
 ````
 yarn init
 yarn config list
@@ -37,7 +37,7 @@ yarn add @types/react
 ````
 
 
-### CASE TWO: How to use indy as a proxy
+- [CASE TWO]: How to use indy as a proxy
 
 Update the config of local-indy to make it to support http proxy in httprox.conf:  
 ````
