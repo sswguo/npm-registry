@@ -1,16 +1,13 @@
 {
-  "name": "npm-registry",
+  "name": "npm_registry",
   "version": "1.0.0",
-  "description": "Custom npm registry",
-  "main": "index.js",
-  "license": "MIT",
   "dependencies": {
-    "@types/react": "^16.9.2",
-    "bible": "^2.0.1",
-    "http-call": "^5.2.5",
-    "http-proxy": "^1.18.0",
-    "json-buffer": "^3.0.1",
-    "rest": "^2.0.0",
-    "webpack": "^4.40.2"
-  }
+    "json": "^9.0.5",
+    "rest": "^1.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sswguo/npm-registry.git"
+  },
+  "license": "MIT"
 }
