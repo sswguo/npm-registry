@@ -57,3 +57,7 @@ Run yarn command to verify if the proxy works
 yarn add json
 ````
 
+#### [CASE THREE]: How to set npm registry in project scope
+
+.npmrc is helpful for this case.
+
