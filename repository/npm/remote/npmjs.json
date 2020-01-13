@@ -1,18 +1,20 @@
 {
+  "items" : [ {
     "type" : "remote",
     "key" : "npm:remote:npmjs",
     "metadata" : {
-      "changelog" : "NPM registry proxy."
+      "changelog" : "npmjs proxy"
     },
     "disabled" : false,
     "host" : "registry.npmjs.org",
     "port" : 443,
-    "name" : "npmjs1",
+    "name" : "npmjs",
     "type" : "remote",
     "packageType" : "npm",
     "disable_timeout" : 0,
     "path_style" : "plain",
     "authoritative_index" : false,
+    "create_time" : "2020-01-13 08:17:44 +0000",
     "allow_snapshots" : false,
     "allow_releases" : true,
     "url" : "https://registry.npmjs.org",
@@ -27,4 +29,5 @@
     "prefetch_priority" : 0,
     "prefetch_rescan" : false,
     "prefetch_listing_type" : "html"
-  }
+  } ]
+}

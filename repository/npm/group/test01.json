@@ -1,0 +1,19 @@
+{
+  "items" : [ {
+    "type" : "group",
+    "key" : "npm:group:test01",
+    "metadata" : {
+      "changelog" : "npm group test01"
+    },
+    "disabled" : false,
+    "constituents" : [ "npm:remote:npmjs", "npm:hosted:test01" ],
+    "name" : "test01",
+    "type" : "group",
+    "packageType" : "npm",
+    "disable_timeout" : 0,
+    "path_style" : "plain",
+    "authoritative_index" : false,
+    "create_time" : "2020-01-13 08:18:38 +0000",
+    "prepend_constituent" : false
+  } ]
+}

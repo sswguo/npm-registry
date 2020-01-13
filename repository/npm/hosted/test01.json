@@ -1,0 +1,21 @@
+{
+  "items" : [ {
+    "type" : "hosted",
+    "key" : "npm:hosted:test01",
+    "metadata" : {
+      "changelog" : "npm test01"
+    },
+    "disabled" : false,
+    "snapshotTimeoutSeconds" : 0,
+    "readonly" : false,
+    "name" : "test01",
+    "type" : "hosted",
+    "packageType" : "npm",
+    "disable_timeout" : 0,
+    "path_style" : "plain",
+    "authoritative_index" : false,
+    "create_time" : "2020-01-13 08:18:09 +0000",
+    "allow_snapshots" : true,
+    "allow_releases" : true
+  } ]
+}
