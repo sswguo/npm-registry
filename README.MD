@@ -61,3 +61,22 @@ yarn add json
 
 .npmrc is helpful for this case.
 
+#### [CASE FOUR] Setup hosted and group store in Indy
+
+Make sure there is a running Indy instance
+
+Prepare the NPM repositories
+````
+./setup_repo.sh
+````
+
+Build the project
+````
+./build.sh
+````
+
+Publish package
+````
+./publish.sh
+````
+
