@@ -1,12 +1,12 @@
  {
     "type" : "group",
-    "key" : "npm:group:test01",
+    "key" : "npm:group:npm-test",
     "metadata" : {
-      "changelog" : "npm group test01"
+      "changelog" : "npm group test"
     },
     "disabled" : false,
-    "constituents" : [ "npm:remote:npmjs", "npm:hosted:test01" ],
-    "name" : "test01",
+    "constituents" : [ "npm:remote:npmjs", "npm:hosted:test01", "npm:hosted:test02"],
+    "name" : "npm-test",
     "type" : "group",
     "packageType" : "npm",
     "disable_timeout" : 0,

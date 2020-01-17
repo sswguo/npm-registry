@@ -1,0 +1,18 @@
+{
+    "type" : "hosted",
+    "key" : "npm:hosted:test02",
+    "metadata" : {
+      "changelog" : "npm test02"
+    },
+    "disabled" : false,
+    "snapshotTimeoutSeconds" : 0,
+    "readonly" : false,
+    "name" : "test02",
+    "type" : "hosted",
+    "packageType" : "npm",
+    "disable_timeout" : 0,
+    "path_style" : "plain",
+    "authoritative_index" : false,
+    "allow_snapshots" : true,
+    "allow_releases" : true
+ } 
