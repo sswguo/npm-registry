@@ -1,4 +1,4 @@
-INDY_VERSION="1.9.5-SNAPSHOT"
+INDY_VERSION="1.9.9-SNAPSHOT"
 
 echo "Indy version: $INDY_VERSION"
 
@@ -11,6 +11,8 @@ cp ~/GitRepo/indy/deployments/launcher/target/indy-launcher-$INDY_VERSION-comple
 echo "[3/4] Untar the source ..."
 sleep 2
 tar -xvf indy-launcher-$INDY_VERSION-complete.tar.gz
+
+cp -i  config_example/logback.xml indy/etc/indy/logging/
 
 echo "[4/4] Start the app in 2s ..."
 sleep 2
