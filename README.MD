@@ -28,3 +28,5 @@ Publish the package into Indy registry
 bin/publish.sh
 ```
 
+_TODO package promotion_
+
