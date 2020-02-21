@@ -1,4 +1,4 @@
-INDY_VERSION="1.9.9-SNAPSHOT"
+INDY_VERSION="2.0-SNAPSHOT"
 
 echo "Indy version: $INDY_VERSION"
 
@@ -12,8 +12,16 @@ echo "[3/4] Untar the source ..."
 sleep 2
 tar -xvf indy-launcher-$INDY_VERSION-complete.tar.gz
 
-cp -i  config_example/logback.xml indy/etc/indy/logging/
+cp -i  ~/tmp/logback.xml indy/etc/indy/logging/
 
-echo "[4/4] Start the app in 2s ..."
-sleep 2
+echo "[Storage] Setup/recreate cassandra container"
+CONTAINERID="$(docker ps --no-trunc -aqf name=indy_storage)"
+echo "Cassandra container: ${CONTAINERID}"
+docker stop ${CONTAINERID}
+docker rm ${CONTAINERID}
+docker run --name indy_storage -p 9042:9042 -d cassandra:latest
+echo "Cassandra container is ready."
+
+echo "[4/4] Start the app in 5s ..."
+sleep 5
 indy/bin/indy.sh
