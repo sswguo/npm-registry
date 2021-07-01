@@ -28,5 +28,10 @@ Publish the package into Indy registry
 bin/publish.sh
 ```
 
-_TODO package promotion_
+Package promotion
+
+Update the promotion request accordingly, file promote/promote_request.json
+```
+bin/promote.sh
+```
 

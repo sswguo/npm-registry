@@ -1,0 +1,18 @@
+{
+    "type" : "hosted",
+    "key" : "npm:hosted:shared-imports",
+    "metadata" : {
+      "changelog" : "shared imports"
+    },
+    "disabled" : false,
+    "snapshotTimeoutSeconds" : 0,
+    "readonly" : false,
+    "name" : "test01",
+    "type" : "hosted",
+    "packageType" : "npm",
+    "disable_timeout" : 0,
+    "path_style" : "plain",
+    "authoritative_index" : false,
+    "allow_snapshots" : true,
+    "allow_releases" : true
+ }

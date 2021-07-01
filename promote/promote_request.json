@@ -1,0 +1,8 @@
+{
+    "source": "npm:remote:npmjs", 
+    "target": "npm:hosted:shared-imports", 
+    "paths": 
+    [
+        "/@babel/helper-validator-identifier/-/helper-validator-identifier-7.9.0.tgz"
+    ]
+}
